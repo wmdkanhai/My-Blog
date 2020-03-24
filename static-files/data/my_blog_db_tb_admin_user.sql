@@ -1,0 +1,1 @@
+INSERT INTO my_blog_db.tb_admin_user (admin_user_id, login_user_name, login_password, nick_name, locked) VALUES (1, 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'wmding', 0);

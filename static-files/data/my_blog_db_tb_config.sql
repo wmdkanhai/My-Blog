@@ -1,0 +1,12 @@
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('footerAbout', 'your personal blog. have fun.', '2018-11-11 20:33:23', '2019-10-29 02:13:22');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('footerCopyRight', 'wmding', '2018-11-11 20:33:31', '2019-10-29 02:13:22');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('footerICP', '京ICP备19048788号', '2018-11-11 20:33:27', '2019-10-29 02:13:22');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('footerPoweredBy', 'https://github.com/wmdkanhai', '2018-11-11 20:33:36', '2019-10-29 02:13:22');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('footerPoweredByURL', 'https://github.com/wmdkanhai', '2018-11-11 20:33:39', '2019-10-29 02:13:22');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('websiteDescription', '靠山山会倒，靠人人会跑，只有自己最可靠。ヾ(◍°∇°◍)ﾉﾞ', '2018-11-11 20:33:04', '2019-11-23 13:25:53');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('websiteIcon', '/admin/dist/img/favicon.png', '2018-11-11 20:33:11', '2019-11-23 13:25:53');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('websiteLogo', '/admin/dist/img/logo2.png', '2018-11-11 20:33:08', '2019-11-23 13:25:53');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('websiteName', 'wmding blog', '2018-11-11 20:33:01', '2019-11-23 13:25:53');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('yourAvatar', '/admin/dist/img/13.png', '2018-11-11 20:33:14', '2019-10-12 06:52:47');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('yourEmail', '546048371@qq.com', '2018-11-11 20:33:17', '2019-10-12 06:52:47');
+INSERT INTO my_blog_db.tb_config (config_name, config_value, create_time, update_time) VALUES ('yourName', 'wmding', '2018-11-11 20:33:20', '2019-10-12 06:52:47');

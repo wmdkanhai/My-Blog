@@ -1,0 +1,56 @@
+server:
+  session-timeout: 1800
+  tomcat:
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8000
+  uri-encoding: utf-8
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#   MYSQL
+    url: jdbc:mysql://localhost:3306/my_blog_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    druid:
+      # 下面为连接池的补充设置，应用到上面所有数据源中
+      # 初始化大小，最小，最大
+      initial-size: 50
+      min-idle: 50
+      max-active: 100
+      # 配置获取连接等待超时的时间
+      max-wait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+  endpoint:
+    health:
+      show-details: always
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: [mapper/*Mapper.xml]
+  typeAliasesPackage: com.wmding.blog.entity
+
+logging:
+  level:
+    root: INFO
+
+file:
+  path: /Users/wmding/MyBlog/upload/

@@ -1,0 +1,27 @@
+
+POST http://localhost:8000/api/blog/list1
+Content-Type: application/x-www-form-urlencoded
+
+page=1&limit=10
+
+
+####
+POST http://localhost:8000/api/blog/list2
+Content-Type: application/json
+
+{
+"page":1,
+"limit":10
+}
+
+
+
+###
+
+GET http://localhost:8000/api/blog/list3?page=1&limit=10
+
+
+####
+GET http://localhost:8000/api/blog/list4/1/10
+
+###

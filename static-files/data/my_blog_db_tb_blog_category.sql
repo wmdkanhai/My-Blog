@@ -1,0 +1,8 @@
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (20, 'About', '/admin/dist/img/category/10.png', 8, 1, '2018-11-12 00:28:49');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (22, 'SSM整合进阶篇', '/admin/dist/img/category/02.png', 19, 1, '2018-11-12 10:42:25');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (24, '日常随笔', '/admin/dist/img/category/06.png', 32, 0, '2018-11-12 10:43:21');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (25, 'Android', '/admin/dist/img/category/03.png', 1, 0, '2019-10-30 03:28:22');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (26, 'Linux', '/admin/dist/img/category/13.png', 9, 0, '2019-10-30 03:28:46');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (27, 'Java', '/admin/dist/img/category/02.png', 90, 0, '2019-10-30 03:28:57');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (28, '设计模式', '/admin/dist/img/category/09.png', 9, 0, '2019-10-30 03:29:20');
+INSERT INTO my_blog_db.tb_blog_category (category_id, category_name, category_icon, category_rank, is_deleted, create_time) VALUES (29, '数据结构和算法', '/admin/dist/img/category/00.png', 1, 0, '2019-10-30 13:13:41');
